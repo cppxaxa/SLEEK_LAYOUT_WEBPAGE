@@ -1,0 +1,61 @@
+#titlebar{
+	background: white;
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
+	height: 60px;
+	width: 100%;
+	
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+
+#titleText{
+	padding: 13px;
+	font-weight: bold;
+}
+
+#ground{
+	position: absolute;
+	top: 60px;
+	width: 100%;
+}
+
+#page{
+	box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.1);
+	margin-top: 80px;
+	height: 500px;
+	top: 30px;
+}
+
+#pageContent{
+	padding: 10px;
+}
+
+#sidemenu{
+	height: 100%;
+	width: 200px;
+	background: white;
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
+	
+	position: fixed;
+	left: -210px;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+#pageTitle{
+	background: #50A7F5;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	
+	position: relative;
+	width: 100%;
+	height: 50px;
+}
+
+#pageTitleContent{
+	padding: 15px;
+}
